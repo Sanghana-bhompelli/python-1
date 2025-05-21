@@ -1,0 +1,29 @@
+n=input("Enter a two digit number :") #read the input
+first_digit=n[0]
+second_digit=n[1]
+# print(first_digit)
+# print(second_digit)
+sum=int(first_digit) + int(second_digit)
+result = sum > 7
+print(result)
+
+
+
+str_1 = input("Enter the input : ") # Apple
+str_2 = input("Enter the input : ") # Application
+
+str_index_1 = str_1[:3]
+str_index_2 = str_2[:3]
+
+result = str_index_1 == str_index_2
+print(result)
+
+
+a = int(input("Enter a number : "))
+b = int(input("Enter a number : "))
+p_or_n = (a > 0) and (b > 0)
+print(p_or_n)
+is_greater = a>5 or b>5
+print(is_greater)
+result = (p_or_n) and is_greater
+print(result)
